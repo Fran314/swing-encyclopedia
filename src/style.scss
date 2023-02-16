@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+body {
+    margin: auto;
+    display: flex;
+    min-height: 100vh;
+
+    color: white;
+    background-color: #282C34;
+
+    #app {
+        margin: 0 auto;
+        min-height: 100%;
+    }
+}
+
+@media (min-width: 501px) {
+    #app {
+        padding: 2rem;
+    }
+}
+@media (max-width: 500px) {
+    body {
+        width: 100%;
+
+        #app {
+            width: 100%;
+        }
+    }
+}
